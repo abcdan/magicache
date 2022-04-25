@@ -1,2 +1,2 @@
 # magicache
-✨ A magical cache for JS
+🧙‍♂️🪄A magical cache for JS ✨
