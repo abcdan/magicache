@@ -1,4 +1,4 @@
-const Magicache = require('../dist/index')
+const { Magicache } = require('../dist/index')
 
 
 function print() {
