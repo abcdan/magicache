@@ -2,11 +2,15 @@ const Magicache = require('../dist/index')
 
 
 function print() {
-    console.log('heh')
+    return 0
 }
 async function main() {
 
     const cache = new Magicache(print, 300)
 
-    cache.run()
+    const value = await cache.run()
+
+    console.log(value)
 }
+
+main()
